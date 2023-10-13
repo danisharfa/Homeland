@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300:400:600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar-Start */
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dee7ea;
+  padding: 30px 50px;
+  margin: auto;
+}
+
+.nav_logo {
+  width: 231px;
+  height: 50px;
+}
+
+.nav_mid {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav_link a {
+  padding: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.nav_link a:hover {
+  color: #99d1e2;
+}
+
+.nav_right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav_right i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.separator {
+  width: 1px;
+  height: 40px;
+  background-color: #000000;
+  margin: 10px;
+}
+
+.loginbtn {
+  background-color: #b3dae6;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.registerbtn {
+  background-color: #000000;
+  color: #dee7ea;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* Navbar-End */
+
+/* Footer-Start */
+footer {
+  background-color: #dee7ea;
+  padding: 40px 50px;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+footer h3 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer i {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+footer .list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer p.text-center {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/* Footer-End */
+
+/* Product Page-Start */
+
+/* Product Page-End */
+
+/* Content-Start */
+.content {
+  padding: 50px;
+}
+
+.tes {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont1 {
+  width: 800px;
+}
+.cont1 ul {
+  display: flex;
+  list-style: none;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.cont1 li {
+  padding-left: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+.cont1 img {
+  width: 50px;
+  height: 50px;
+}
+.produk1 {
+  display: flex;
+  justify-content: center;
+  /* border-style: solid; */
+  /* padding-top:100%; */
+  /* padding: 500px; */
+  /* margin-left: 200px; */
+  /* margin-right: 180px; */
+  padding-bottom: 30px;
+}
+.shop {
+  /* display: flex; */
+  padding-left: 50px;
+}
+.content_prod {
+  padding: 20px;
+}
+/* Content-End */
+
+/* Login and Register Page Content-Start */
+.content-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.logreg-form {
+  width: 600px;
+  height: 100%;
+  padding: 50px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 29px;
+  padding-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logreg-link {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+}
+/* Login and Register Page Content-End */
+
+/* Akun Saya-Start */
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+  min-width: 250px;
+}
+
+.tab-content {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  color: #333;
+}
+.nav-pills a.nav-link i {
+  width: 20px;
+}
+
+.img-circle img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+/* Akun Saya-End */
+
+/* Admin Page-Start */
+/* Admin Page-End */
+
+/* Product Page-Start */
+.product_container {
+  margin: 50px;
+}
+/* .product_category {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0%;
+  margin: 0%;
+}
+.category_link a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.category_link a:hover {
+  color: #99d1e2;
+} */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button-value {
+  border: 2px solid #99d1e2;
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: #99d1e2;
+  cursor: pointer;
+}
+.product_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product_cards img {
+  height: 250px;
+  /* width: 300px; */
+}
+/* Product Page-End */
+
+/* Cart Page-Start */
+.cart-page {
+  margin: 60px auto;
+  /* border-style: solid;
+  border-color: red; */
+  width: 90%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: black;
+  background: #dee7ea;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: black;
+  font-size: 12px;
+}
+td img {
+  margin-right: 10px;
+}
+.total_price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total_price table {
+  border-top: 3px solid #dee7ea;
+  width: 100%;
+  max-width: 350px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
+/* Cart Page-End */
+
+/* Pembayaran-Start */
+.cash-page {
+  margin: 60px auto;
+  width: 90%;
+}
+.cash-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Pembayaran-End */
